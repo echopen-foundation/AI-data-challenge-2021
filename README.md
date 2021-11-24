@@ -10,7 +10,7 @@ More details can be found [HERE](ProjectDescription.md)
 
 ## How to post a submission
 
-At the end of the hackathon, you will be required to share your methods and source code with the open community under [CC by NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/)
+At the end of the hackathon, you will be required to share your methods and source code with the open community under [CC by NC 2.0 license](https://creativecommons.org/licenses/by-nc/2.0/)
 
 We suggest the following **submission template**:
 
