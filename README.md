@@ -10,7 +10,7 @@ More details can be found [HERE](ProjectDescription.md)
 
 ## How to post a submission
 
-At the end of the hackathon, you will be required to share your methods and source code with the open community.  
+At the end of the hackathon, you will be required to share your methods and source code with the open community under [CC by NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/)
 
 We suggest the following **submission template**:
 
@@ -34,7 +34,7 @@ Explain in details the preprocessing and training methods(dataset split and stra
 You will also provide a link to the source code implementing these different steps.
 
 #### Model performances
-The model performances are evaluated on a hidden subset of the dataset following the F1-score applied to patient's clinical outcome variable.
+The model performances are evaluated on a hidden subset of the dataset following the [F1-score](https://towardsdatascience.com/the-f1-score-bec2bbc38aa6) applied to patient's clinical outcome variable.
 
 #### Medical discussion and model interpretability
 
