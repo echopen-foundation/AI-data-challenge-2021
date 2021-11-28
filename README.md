@@ -16,17 +16,18 @@ We suggest the following **submission template**:
 
 #### Project name
 
-Name of your project
+ACUPen
 
 #### Project description
 
-A short description of what makes your project unique !
+- Data wrangling
+- Data augmentation
+- Training using XGBoost
 
 #### Team members
 
-* Ada Lovelace
-* Claude Shannon
-* Stephen Hawking
+* Marc DEMOUSTIER
+* Quoc Duong NGUYEN
 
 #### Preprocessing and training methods
 
