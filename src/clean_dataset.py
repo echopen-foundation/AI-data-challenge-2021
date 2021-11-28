@@ -74,3 +74,5 @@ def balance_data(X_train, Y_train):
         "Distribution of y_train set Before over and under sampling: ",
         Counter(Y_train_both),
     )
+
+    return X_train_both, Y_train_both

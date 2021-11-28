@@ -1,7 +1,7 @@
 import sys
 
 from load_data import load_data
-from clean_dataset import clean_dataset, balance_data
+from clean_dataset import clean_dataframe, balance_data
 from model import (
     prepare_train_input_output,
     train_model,
@@ -11,7 +11,7 @@ from model import (
 
 
 def main():
-    if len(sys.argv != 3):
+    if len(sys.argv) != 3:
         print("Usage: python make_prediction.py train_path test_path")
         exit(1)
 
@@ -20,8 +20,8 @@ def main():
 
     train, test = load_data(train_path, test_path)
 
-    train = clean_dataset(train)
-    test = clean_dataset(test)
+    train = clean_dataframe(train)
+    test = clean_dataframe(test, train=False)
 
     X_train, Y_train = prepare_train_input_output(train)
 
