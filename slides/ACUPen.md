@@ -47,7 +47,9 @@ title: ACUPen Presentation
 - Simple grid search
 - Using cross validation
 
-## Results on validation set
+# Results
+
+## Validation set
 
 - 67 patients in the validation set (30% of the training data)
 - Weighted F1-score of 0.87
